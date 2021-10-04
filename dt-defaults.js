@@ -1,7 +1,7 @@
 $.extend( $.fn.dataTable.defaults, {
   columnDefs: [
     {
-      targets: "myRender",
+      targets: 1,
       render: function (data, type, row) {
         return data + myGlobal;
       }
